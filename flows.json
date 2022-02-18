@@ -208,7 +208,7 @@
         "type": "mqtt in",
         "z": "d3c4c932fa0ad433",
         "name": "Listen on Control Topic ",
-        "topic": "demo/security/control",
+        "topic": "demo/security/control/moderator",
         "qos": "2",
         "datatype": "json",
         "broker": "3c9fafa.7dd6a5",
@@ -258,13 +258,16 @@
         "y": 160,
         "wires": [
             [
-                "94b449353b48ae65"
+                "94b449353b48ae65",
+                "830f9d4f38213d75"
             ],
             [
-                "94b449353b48ae65"
+                "94b449353b48ae65",
+                "830f9d4f38213d75"
             ],
             [
-                "94b449353b48ae65"
+                "94b449353b48ae65",
+                "830f9d4f38213d75"
             ],
             []
         ]
@@ -315,7 +318,8 @@
         "y": 280,
         "wires": [
             [
-                "9bae47b5adc2d938"
+                "9bae47b5adc2d938",
+                "830f9d4f38213d75"
             ],
             [
                 "3cb93eed8b48e5ec"
@@ -620,6 +624,22 @@
                 "5872a3052b7c12d6"
             ]
         ]
+    },
+    {
+        "id": "830f9d4f38213d75",
+        "type": "debug",
+        "z": "d3c4c932fa0ad433",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 280,
+        "wires": []
     },
     {
         "id": "f8731cbdc7647a09",
